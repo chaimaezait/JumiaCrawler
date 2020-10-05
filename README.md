@@ -9,13 +9,15 @@ __library__ : scrapy
 
 # Run Project
 
-To Run this spider tap the following command in the root directory:
- rm output.json;scrapy crawl jumia -o output.json -a product=Product_name
+To Run this spider tap the following command in the root directory(./keyzztest):
+
+ __rm output.json;scrapy crawl jumia -o output.json -a product=Product_name__
 
 # Output
 
 __output.json__ is a json file where the scraped data is stored.
+# Spider
 
+Go to "./keyzztest/keyzztest/spiders/" directory 
 
-
-
+in the __jumia_spider.py__ you will find the scraping algorithm
